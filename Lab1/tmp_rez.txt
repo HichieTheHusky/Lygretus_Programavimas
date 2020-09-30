@@ -1,0 +1,26 @@
+                                         Name |   MSRP |    Score | Value for $
+-----------------------------------------------------------------------------------------------
+                Asus Strix Nvidia GTX 2080 TI |   1099 |    13.25 |  82.9434
+           Palit jetstream Nvidia GTX 2080 TI |    999 |    12.95 |  77.1429
+                  Gigabyte Nvidia GTX 2080 TI |    999 |     12.9 |  77.4419
+                      evga Nvidia GTX 2080 TI |    945 |    12.89 |  73.3126
+                 Reference Nvidia GTX 2080 TI |    999 |    12.85 |  77.7432
+                    inno3d Nvidia GTX 2080 TI |    945 |     12.8 |  73.8281
+                       msi Nvidia GTX 2080 TI |    945 |    12.75 |  74.1176
+                     zotac Nvidia GTX 2080 TI |    945 |     12.7 |  74.4094
+                       pny Nvidia GTX 2080 TI |    945 |    12.65 |  74.7036
+                   saphire Nvidia GTX 2080 TI |    945 |     12.6 |       75
+                  Asus Strix Nvidia GTX 2080  |    749 |    11.05 |  67.7828
+             Palit jetstream Nvidia GTX 2080  |    649 |    10.95 |  59.2694
+                    Gigabyte Nvidia GTX 2080  |    649 |     10.9 |  59.5413
+                   Reference Nvidia GTX 2080  |    649 |    10.85 |  59.8157
+                        evga Nvidia GTX 2080  |    649 |    10.75 |  60.3721
+                      inno3d Nvidia GTX 2080  |    649 |     10.7 |  60.6542
+                         msi Nvidia GTX 2080  |    649 |    10.65 |   60.939
+                       zotac Nvidia GTX 2080  |    649 |     10.6 |  61.2264
+                     saphire Nvidia GTX 2080  |    649 |    10.59 |  61.2842
+                         pny Nvidia GTX 2080  |    649 |    10.55 |  61.5166
+                        Nvidia GTX 2070 SUPER |    499 |    10.05 |  49.6517
+                              Nvidia GTX 2070 |    449 |     9.35 |  48.0214
+                        Nvidia GTX 2060 SUPER |    399 |     8.75 |     45.6
+                              Nvidia GTX 2060 |    349 |     8.15 |  42.8221
