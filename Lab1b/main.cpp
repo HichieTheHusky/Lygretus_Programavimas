@@ -50,7 +50,7 @@ class Monitor {
         bool finished;
 
     public:
-        omp_lock_t monitorlock;
+        omp_lock_t ompLock;
 
         Monitor() {
             currentIndex = 0;
@@ -61,22 +61,22 @@ class Monitor {
             if (currentIndex == MAIN_MONITOR_SIZE)
                 return false;
 
-            omp_set_lock(&monitorlock);
+            omp_set_lock(&ompLock);
             data[currentIndex++] = dataLine;
-            omp_unset_lock(&monitorlock);
+            omp_unset_lock(&ompLock);
             return true;
         }
 
         BenchmarkGPU get(bool &success) {
-            omp_set_lock(&monitorlock);
+            omp_set_lock(&ompLock);
             if (currentIndex == 0) {
-                omp_unset_lock(&monitorlock);
+                omp_unset_lock(&ompLock);
                 BenchmarkGPU dummy;
                 success = false;
                 return dummy;
             }
             BenchmarkGPU new_data = data[currentIndex-- -1];
-            omp_unset_lock(&monitorlock);
+            omp_unset_lock(&ompLock);
             success = true;
             return new_data;
         }
@@ -100,22 +100,22 @@ struct results {
         BenchmarkGPU filteredResults[25];
         int size = 0;
     public:
-        omp_lock_t resultslock;
+        omp_lock_t ompLock;
 
         void addSortedBenchmark(BenchmarkGPU newest) {
-            omp_set_lock(&resultslock);
+            omp_set_lock(&ompLock);
             for (int i = 0; i < size; i++) {
                 if (filteredResults[i].Performance < newest.Performance) {
                     for (int j = size++; j > i; j--) {
                         filteredResults[j] = filteredResults[j - 1];
                     }
                     filteredResults[i] = newest;
-                    omp_unset_lock(&resultslock);
+                    omp_unset_lock(&ompLock);
                     return;
                 }
             }
             filteredResults[size++] = newest;
-            omp_unset_lock(&resultslock);
+            omp_unset_lock(&ompLock);
         };
 
         string takePrint(int i)
@@ -136,7 +136,7 @@ void execute(const string &name) {
     while (!DataMonitor.getStatus())
     {
         bool addedSuccessfully = false;
-        int failedTimes = 0;
+//        int failedTimes = 0;
         BenchmarkGPU data;
         while (!addedSuccessfully && !DataMonitor.getStatus()) {
             data = DataMonitor.get(addedSuccessfully);
@@ -151,19 +151,16 @@ void execute(const string &name) {
             if(data.Performance < MIN_FILTER)
                 SortedResultMonitor.addSortedBenchmark(data);
         }
-
     }
 }
 
 void printResults() {
     ofstream file;
     file.open(FINAL_DATA);
-
     file << setw(45) << "Name" << " | " << setw(6) << "MSRP" << " | " << setw(8) << "Score" << " | " << setw(8) << "Value for $" << endl;
     file << string(85, '-') << endl;
     for (int i = 0; i < SortedResultMonitor.ElementCount(); i++)
         file << SortedResultMonitor.takePrint(i);
-
     file.close();
 }
 
@@ -172,8 +169,8 @@ int main() {
 
     BenchmarkGPU data[25];
 
-    omp_init_lock(&DataMonitor.monitorlock);
-    omp_init_lock(&SortedResultMonitor.resultslock);
+    omp_init_lock(&DataMonitor.ompLock);
+    omp_init_lock(&SortedResultMonitor.ompLock);
 
     // 1) Nuskaitomas duomenu failas i lokalu masyva
     cout << "\033[1;31m Main Thread is getting json data to local array \033[0m\n" ;
@@ -184,6 +181,7 @@ int main() {
         data[k] = j2[k];
     }
     auto data_count = j2.size();
+
     // 2) Paleidziamas pasirinktas kiekis giju, jos vykdo pasirinkta operacija
     #pragma omp parallel num_threads(THREAD_COUNT + 1)
     {
@@ -193,7 +191,7 @@ int main() {
             int index = 0;
             while (index < data_count) {
                 while (!DataMonitor.put(data[index])) {
-                    cout << "main thread: failed to add movie\n";
+                    cout << "\033[1;31m failed to add BenchmarkGPU \033[0m\n" ;
                 }
                 cout << "main thread: added " << index + 1<< ". " + data[index].Name + "\n";
                 index++;
@@ -205,11 +203,9 @@ int main() {
             execute(to_string(omp_get_thread_num()));
         }
     }
-
-
     // 4) Laukiama kol visos gijos baigs darba
-    omp_destroy_lock(&DataMonitor.monitorlock);
-    omp_destroy_lock(&SortedResultMonitor.resultslock);
+    omp_destroy_lock(&DataMonitor.ompLock);
+    omp_destroy_lock(&SortedResultMonitor.ompLock);
 
     // 5) Duomenys isvedami i tekstini faila lentele
     cout << "\033[1;31m Printing table to txt \033[0m\n" ;
