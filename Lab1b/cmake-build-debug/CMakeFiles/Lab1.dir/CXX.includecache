@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lukasz/Documents/GitHub/Lygretus_Programavimas/Lab1b/main.cpp
+iostream
+-
+iomanip
+-
+string
+-
+fstream
+-
+omp.h
+-
+nlohmann/json.hpp
+-
+

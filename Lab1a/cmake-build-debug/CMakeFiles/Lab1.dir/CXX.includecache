@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lukasz/Documents/GitHub/Lygretus_Programavimas/Lab1a/main.cpp
+iostream
+-
+string
+-
+vector
+-
+thread
+-
+algorithm
+-
+functional
+-
+nlohmann/json.hpp
+-
+fstream
+-
+iomanip
+-
+mutex
+-
+condition_variable
+-
+
