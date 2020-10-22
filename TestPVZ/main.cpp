@@ -8,7 +8,7 @@
 
 //for windows
 // #include <Windows.h>
-
+#include <unistd.h>
 
 using namespace std;
 
@@ -20,30 +20,38 @@ struct monitor {
     int balsesInARow = 0;
 
     bool add(string name) {
+//        usleep(1000000);
+        unique_lock<mutex> lck(mtx);
 
-//        cout << name + "  Monitor: item " + tekstas + "\n";  // suletina monitor ir tada geriau matosi veikimas
-        if(name == "A") {
-            balsesInARow++;
-            tekstas += name;
-            if(balsesInARow >= 3)
-                cv.notify_all();
-        }
-        else
-            {
-            unique_lock<mutex> lck(mtx);
+        if(name !="A")
+        {
+            cout << name + "  Monitor: pries " + "\n";
             cv.wait(lck, [&] {return balsesInARow >= 3 || producerFinished;});
+            cout << name + "  Monitor: po " + "\n";
             if(producerFinished)
                 return false;
             tekstas += name;
             balsesInARow = 0;
+        }
+        else {
+            balsesInARow++;
+            tekstas += name;
+            if(balsesInARow >= 3)
+            {
+                cout << name + "  Monitor: notify " + "\n";
+                cv.notify_all();
             }
+        }
+        cout << name + "  Monitor: item " + tekstas + "\n";  // suletina monitor ir tada geriau matosi veikimas
+
+
         return true;
     };
 
     void setFinished()
     {
      producerFinished = true;
-     cv.notify_all();
+//     cv.notify_all();
     }
 };
 
@@ -55,7 +63,7 @@ void execute(const string &name) {
             if(mntr.add(name))
                 count++;
 
-            if(count == 15)
+            if(count == 100)
                 mntr.setFinished();
     }
 //    cout << name + "  : Count : " << count <<  "\n";
@@ -70,7 +78,7 @@ int main()
 
     while(!mntr.producerFinished)
     {
-        cout << "Main thread: " + mntr.tekstas + "\n";
+//        cout << "Main thread: " + mntr.tekstas + "\n";
     }
     for_each(threads.begin(),threads.end(), mem_fn(&thread::join));
     cout << "Main thread: Final! \n";
