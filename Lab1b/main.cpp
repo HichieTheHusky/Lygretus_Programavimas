@@ -136,13 +136,13 @@ void execute(const string &name) {
     while (!DataMonitor.getStatus())
     {
         bool addedSuccessfully = false;
-//        int failedTimes = 0;
+//        int failure = 0;
         BenchmarkGPU data;
         while (!addedSuccessfully && !DataMonitor.getStatus()) {
             data = DataMonitor.get(addedSuccessfully);
-//            if (failedTimes != 0)
-//                cout << "thread " + name + ": failed for " + to_string(failedTimes) + "times\n";
-//            failedTimes++;
+//            if (failure != 0)
+//                cout << "thread " + name + ": failed for " + to_string(failure) + "times\n";
+//            failure++;
         }
         cout << "thread " + name + ": took " + data.Name + "\n";
         if(data.MSRP != -1)
@@ -203,7 +203,7 @@ int main() {
             execute(to_string(omp_get_thread_num()));
         }
     }
-    // 4) Laukiama kol visos gijos baigs darba
+    // 4) Laukiama kol visos gijos baigs darba tada sunaikinami uzraktai
     omp_destroy_lock(&DataMonitor.ompLock);
     omp_destroy_lock(&SortedResultMonitor.ompLock);
 

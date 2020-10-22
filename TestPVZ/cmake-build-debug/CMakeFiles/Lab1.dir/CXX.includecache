@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lukasz/Documents/GitHub/Lygretus_Programavimas/TestPVZ/main.cpp
+iostream
+-
+string
+-
+vector
+-
+thread
+-
+functional
+-
+mutex
+-
+condition_variable
+-
+

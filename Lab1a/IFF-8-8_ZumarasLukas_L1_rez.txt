@@ -1,8 +1,8 @@
                                          Name |   MSRP |    Score | Value for $
 -------------------------------------------------------------------------------------
                   Palit Nvidia GTX 2070 Super |    499 |    10.01 |  49.8501
-                  zotac Nvidia GTX 2070 Super |    499 |    10.04 |  49.7012
                Gigabyte Nvidia GTX 2070 Super |    499 |    10.04 |  49.7012
+                  zotac Nvidia GTX 2070 Super |    499 |    10.04 |  49.7012
               Reference Nvidia GTX 2070 Super |    499 |    10.05 |  49.6517
                    Asus Nvidia GTX 2070 Super |    499 |    10.06 |  49.6024
                     msi Nvidia GTX 2070 Super |    499 |    10.07 |  49.5531
@@ -11,8 +11,8 @@
                     pny Nvidia GTX 2070 Super |    489 |     9.95 |  49.1457
                  inno3d Nvidia GTX 2070 Super |    489 |       10 |     48.9
                        Palit Nvidia GTX 2070  |    399 |     9.01 |  44.2841
-                       zotac Nvidia GTX 2070  |    399 |     9.04 |  44.1372
                     Gigabyte Nvidia GTX 2070  |    399 |     9.04 |  44.1372
+                       zotac Nvidia GTX 2070  |    399 |     9.04 |  44.1372
                    Reference Nvidia GTX 2070  |    399 |     9.05 |  44.0884
                         Asus Nvidia GTX 2070  |    399 |     9.06 |  44.0397
                          msi Nvidia GTX 2070  |    399 |     9.07 |  43.9912
