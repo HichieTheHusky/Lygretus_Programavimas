@@ -1,0 +1,3 @@
+/home/lukasz/Documents/GitHub/Lygretus_Programavimas/TestPVZ_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lukasz/Documents/GitHub/Lygretus_Programavimas/TestPVZ_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lukasz/Documents/GitHub/Lygretus_Programavimas/TestPVZ_2/cmake-build-debug/CMakeFiles/Lab2.dir

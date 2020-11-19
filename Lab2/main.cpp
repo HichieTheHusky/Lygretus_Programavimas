@@ -11,7 +11,7 @@ using json = nlohmann::json;
 
 const int DATA_SIZE = 25;
 const double MIN_FILTER = 50;
-const string JSON_DATA = "/home/lukasz/Documents/GitHub/Lygretus_Programavimas/Lab2/IFF-8-8_ZumarasLukas_L1_dat_1.json"; // 1, 2, 3
+const string JSON_DATA = "/home/lukasz/Documents/GitHub/Lygretus_Programavimas/Lab2/IFF-8-8_ZumarasLukas_L1_dat_2.json"; // 1, 2, 3
 const string FINAL_DATA = "/home/lukasz/Documents/GitHub/Lygretus_Programavimas/Lab2/IFF-8-8_ZumarasLukas_L1_rez.txt";
 
 int WORLD_RANK;
@@ -94,12 +94,10 @@ void execute_worker() {
 }
 
 void execute_data(){
-    int max_size = 10;
     BenchmarkGPU data[10];
     int current_size = 0;
     int lifetime_size = 0;
-    int waiting_worker = true;
-    int tas = 0;
+
 
     while (lifetime_size != DATA_SIZE){
         int source;
