@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lab3_cuda"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab3_cuda">
+				<Option output="/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug/lab3_cuda" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab3_cuda"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab3_cuda/fast">
+				<Option output="/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug/lab3_cuda" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab3_cuda/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/main.cu">
+			<Option target="lab3_cuda"/>
+		</Unit>
+		<Unit filename="/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

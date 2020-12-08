@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="lab3_cuda" targetName="lab3_cuda" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81e7ff6b-d656-4389-b889-b3b2c87cb703" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/struct_based_main.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestPVZ_2/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../TestPVZ_2/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestPVZ_2/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TestPVZ_2/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1l5v24NrRIbwTwFDhYkQR2FJ8VF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab3_cuda" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab3_cuda" TARGET_NAME="lab3_cuda" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab3_cuda" RUN_TARGET_NAME="lab3_cuda">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81e7ff6b-d656-4389-b889-b3b2c87cb703" name="Default Changelist" comment="" />
+      <created>1606899555633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606899555633</updated>
+      <workItem from="1606899557304" duration="32000" />
+      <workItem from="1606900664008" duration="742000" />
+      <workItem from="1606913399573" duration="95000" />
+      <workItem from="1606913629434" duration="85000" />
+      <workItem from="1607161040694" duration="486000" />
+      <workItem from="1607173405707" duration="31309000" />
+      <workItem from="1607420954567" duration="106000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607174070947">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1607174070947" />
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom" timestamp="1607421059534">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1607421059534" />
+    <state width="1878" height="277" key="GridCell.Tab.0.center" timestamp="1607421059533">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1878" height="277" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1607421059533" />
+    <state width="1878" height="277" key="GridCell.Tab.0.left" timestamp="1607421059533">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1878" height="277" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1607421059533" />
+    <state width="1878" height="277" key="GridCell.Tab.0.right" timestamp="1607421059534">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1878" height="277" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1607421059534" />
+    <state width="1878" height="342" key="GridCell.Tab.1.bottom" timestamp="1607354644483">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1878" height="342" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1607354644483" />
+    <state width="1878" height="342" key="GridCell.Tab.1.center" timestamp="1607354644481">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1878" height="342" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1607354644481" />
+    <state width="1878" height="342" key="GridCell.Tab.1.left" timestamp="1607354644480">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1878" height="342" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1607354644480" />
+    <state width="1878" height="342" key="GridCell.Tab.1.right" timestamp="1607354644482">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1878" height="342" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1607354644482" />
+    <state x="464" y="188" width="992" height="737" key="SettingsEditor" timestamp="1607174316975">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="464" y="188" width="992" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1607174316975" />
+    <state x="843" y="340" width="257" height="433" key="refactoring.ChangeSignatureDialog" timestamp="1607339202168">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="843" y="340" width="257" height="433" key="refactoring.ChangeSignatureDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1607339202168" />
+    <state x="624" y="252" key="run.anything.popup" timestamp="1607339427460">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="624" y="252" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1607339427460" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1607419082941">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1607419082941" />
+  </component>
+</project>

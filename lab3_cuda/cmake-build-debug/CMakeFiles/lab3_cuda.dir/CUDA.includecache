@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/main.cu
+cuda_runtime.h
+/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/cuda_runtime.h
+cuda.h
+-
+cstdio
+-
+iostream
+-
+iomanip
+-
+fstream
+-
+vector
+-
+device_launch_parameters.h
+/home/lukasz/Documents/GitHub/Lygretus_Programavimas/lab3_cuda/device_launch_parameters.h
+

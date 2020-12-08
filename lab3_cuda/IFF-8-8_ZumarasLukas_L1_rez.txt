@@ -1,0 +1,28 @@
+Resultatai
+
+C-Reference Nvidia GTX 2070 Super
+D-pny Nvidia GTX 2070 Super
+C-msi Nvidia GTX 2070
+C-Asus Nvidia GTX 2070 Super
+D-saphire Nvidia GTX 2070 Super
+C-zotac Nvidia GTX 2070
+C-Palit Nvidia GTX 2070 Super
+C-Reference Nvidia GTX 2070
+C-pny Nvidia GTX 2070
+C-Gigabyte Nvidia GTX 2070 Super
+C-Asus Nvidia GTX 2070
+C-saphire Nvidia GTX 2070
+D-evga Nvidia GTX 2070 Super
+C-Palit Nvidia GTX 2070
+C-Reference Nvidia GTX 2060 Super
+C-inno3d Nvidia GTX 2070 Super
+C-Gigabyte Nvidia GTX 2070
+C-Asus Nvidia GTX 2060 Super
+C-msi Nvidia GTX 2070 Super
+C-evga Nvidia GTX 2070
+C-Palit Nvidia GTX 2060 Super
+C-zotac Nvidia GTX 2070 Super
+C-inno3d Nvidia GTX 2070
+B-Gigabyte Nvidia GTX 2060 Super
+A-evga Nvidia GTX 2060 Super
+
